@@ -1,24 +1,47 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 int main()
 {
+    char operation;
+    double n1, n2;
 
-    float Lenght, Width; // Rectangle parameters
-    double A, P;         // Variables for Rectangle area and perimeter
+    // This is just a simple counter using what I had learned today
+    //
+    // My twitter Account : @AlaeeddineHajji
 
-    printf("Rectangle Calculator (Area and Perimeter)\n");
-    printf("Enter your Rectangle's Length (cm): ");
-    scanf("%f", &Lenght);
+    printf("This is a simple converter\nChoose from the list.\nCentimeter to Feet: Type c\nFahrenheit to Celsius: Type f\nKilometers to Miles: Type k\nPound to Kilogram: Type p\nYour text :");
+    scanf("%c", &operation);
 
-    printf("Enter your Rectangle's Width (cm): ");
-    scanf("%f", &Width);
+    switch (operation)
+    {
+    case 'c':
+        printf("Type a number to Start converting (cm to ft) : ");
+        scanf("%lf", &n1);
+        n2 = n1 * 0.0328;
+        printf("The result is %0.3lf feet", n2);
+        break;
+    case 'f':
+        printf("Type a number to Start converting (celsius to fahrenheit) : ");
+        scanf("%lf", &n1);
+        n2 = (n1 - 32) * 5 / 9;
+        printf("The result is %0.3lf fahrenheit", n2);
+        break;
+    case 'k':
+        printf("Type a number to Start converting (km to miles) : ");
+        scanf("%lf", &n1);
+        n2 = n1 / 1.6;
+        printf("The result is %0.3lf miles", n2);
+        break;
+    case 'p':
+        printf("Type a number to Start converting (pound to kg) : ");
+        scanf("%lf", &n1);
+        n2 = n1 * 0.453592;
+        printf("The result is %0.3lf kg", n2);
+        break;
 
-    P = 2 * (Lenght + Width); // calculate the perimeter
-    A = Lenght * Width;       // calculate the area
+    default:
+        printf("somthing wrog try again");
+    }
 
-    /* show result to the user */
-    printf("\n\nWell done\nYour Rectangle info (Length: %0.2f cm/ Width: %0.2f cm) :\n", Lenght, Width);
-    printf("Perimeter = %0.2lf cm\nArea = %0.2lf cm^2 \n", A, P);
     return 0;
 }
