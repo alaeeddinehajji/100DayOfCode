@@ -10,7 +10,7 @@ int main()
     scanf("%f %f", &Xa, &Ya);
     printf("Enter cordinates of Point 'Z'  (Xz,Yz): ");
     scanf("%f %f", &Xz, &Yz);
-    distance = sqrt(pow(Xa + Xz, 2) + pow(Ya + Yz, 2));
+    distance = sqrt(pow(Xa - Xz, 2) + pow(Ya - Yz, 2));
     printf("The two poits : A(%.2f,%.2f) and Z(%.2f,%.2f)\nThe distance AB is : %.2f", Xa, Ya, Xz, Yz, distance);
     return 0;
 }
