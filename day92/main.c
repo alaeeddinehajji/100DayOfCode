@@ -4,6 +4,10 @@
 
 int main()
 {
+    // This is just a simple project #100dayofcode
+    //
+    // My twitter Account : @AlaeeddineHajji
+    
     int number, Hearts = 0;
     srand(time(NULL));     // Initialization, should only be called once.
     int r = rand() % (50); // Get a random number between 0 and 50
