@@ -3,6 +3,11 @@
 
 int main()
 {
+    
+    // This is just a simple project #100dayofcode
+    //
+    // My twitter Account : @AlaeeddineHajji
+    
     int a = 5, b = 5;
     int *p_a;
     // Variables adresse are not in order
