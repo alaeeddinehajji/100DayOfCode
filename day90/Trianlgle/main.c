@@ -4,6 +4,9 @@
 int main()
 {
 
+    // This is just a simple project #100dayofcode
+    //
+    // My twitter Account : @AlaeeddineHajji
     int x;
     printf("Enter a size fot the triangle (ex.15): ");
     scanf("%d", &x);
