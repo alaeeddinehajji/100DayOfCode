@@ -4,10 +4,8 @@ int main() {
     // This is just a simple project #100dayofcode
     //
     // My twitter Account : @AlaeeddineHajji
-    int l=50;
-    int p=58;
-    int s=50;
-    int d=50;
+    
+    int l = 15, p = 15, s = 15, d = 15;
 
     for (p=1; p<=s; p++)
     {
