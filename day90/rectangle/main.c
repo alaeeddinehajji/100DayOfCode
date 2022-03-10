@@ -1,5 +1,9 @@
 #include <stdlib.h>
 int main() {
+    
+    // This is just a simple project #100dayofcode
+    //
+    // My twitter Account : @AlaeeddineHajji
     int l=50;
     int p=58;
     int s=50;
