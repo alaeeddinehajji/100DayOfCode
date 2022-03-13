@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+    // This is just a simple project #100dayofcode
+    //
+    // My twitter Account : @AlaeeddineHajji
+
 typedef struct
 {
     char name[50];
