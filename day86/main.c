@@ -4,6 +4,9 @@ int main() {
     // I learned how to make a Logic circuits "degital logic design course"
     
     
+    // This is just a simple project #100dayofcode
+    //
+    // My twitter Account : @AlaeeddineHajji  
    
  unsigned int a = 60; /* 0011 1100 */
  unsigned int b = 13; /* 0000 1101 */
