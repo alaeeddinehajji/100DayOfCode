@@ -4,7 +4,7 @@
     // This is just a simple project #100dayofcode
     //
     // My twitter Account : @AlaeeddineHajji
-    //using same code of day 87 but I used function
+    //using same code of day 87 but I used functions
 
 typedef struct
 {
