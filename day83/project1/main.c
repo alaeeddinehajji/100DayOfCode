@@ -9,7 +9,10 @@ and prints if they could represent the sides of a triangle.
 
 int main()
 {
-
+    // This is just a simple project #100dayofcode
+    //
+    // My twitter Account : @AlaeeddineHajji
+    
     float side1 = 0, side2 = 0, side3 = 0; // Triangle sides variables
     printf("Enter 3 values for the triangle sides (cm)\n");
 
