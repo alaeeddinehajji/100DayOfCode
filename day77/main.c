@@ -51,7 +51,8 @@ int main()
        result = pow(num1, num2);
               operation_char = '^';
        break;
-default: printf("\nWe get an ERROR")goto menu;
+default: printf("\nWe get an ERROR\n");
+goto menu;
 break;
 
    }
