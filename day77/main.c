@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-    // This is just a simple counter using what I had learned today
+    // This is just a simple project
     //
     // My twitter Account : @AlaeeddineHajji
 
